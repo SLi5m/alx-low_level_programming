@@ -1,4 +1,11 @@
 #include <stdio.h>
+/*
+ * main - Entry poin
+ *
+ * Returns (0) - Success
+ *
+ */
+
 
 int main(void)
 {
