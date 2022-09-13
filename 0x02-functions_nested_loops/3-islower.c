@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase character
- * c is the xter to check
+ * @c is the xter to check
  *
  * Return: 1 if c is lowercase otherwise return 0
  */
