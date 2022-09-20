@@ -1,9 +1,26 @@
-#include "main.h, 2-strlen.c"
+#include "main.h"
+
+/**
+ * _strlen - returns the length of a string
+ * @s: char input
+ * Return: length of the input string
+ */
+int _strlen(char *s)
+{
+	int i = 1, sum = 0;
+	char lenp = s[0];
+
+	while (lenp != '\0')
+	{
+		sum++;
+		lenp = s[i++];
+	}
+	return (sum);
+}
 
 /**
  * puts_half - prints half of a string, followed by a new line
  * @str: string to print
- * Return: half
  */
 
 void puts_half(char *str)
