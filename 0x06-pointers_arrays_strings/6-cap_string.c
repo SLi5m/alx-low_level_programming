@@ -25,6 +25,8 @@ int check_seperators(char c)
  * Return: pointer to s
  */
 
+int check_seperators(char c);
+
 char *cap_string(char *s)
 {
 	int i = 0;
